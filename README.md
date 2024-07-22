@@ -15,6 +15,12 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
+> [!IMPORTANT]
+> This is **not** the official version of Overseerr. You can find the official version [here](https://github.com/sct/overseerr). If you like anything you find here, you should donate and/or contribute to them instead.
+>
+> This is just my own fork of Overseerr which implements some extra functionality, so that it could fit some of my needs better. Most of the changes comes from PRs from the official Overseerr repository.
+> I've added the merged PRs under [Changes in this fork](#changes-in-this-fork).
+
 **Overseerr** is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as **[Sonarr](https://sonarr.tv/)**, **[Radarr](https://radarr.video/)**, and **[Plex](https://www.plex.tv/)**!
 
 ## Current Features
@@ -29,6 +35,11 @@
 - Mobile-friendly design, for when you need to approve requests on the go!
 
 With more features on the way! Check out our [issue tracker](https://github.com/sct/overseerr/issues) to see the features which have already been requested.
+
+### Changes in this fork
+
+- Add support for anime-specific Sonarr/Radarr instances (sct/overseerr#3664)
+- Allow Overseerr to check watchlist changes more often (sct/overseerr#3901)
 
 ## Getting Started
 
